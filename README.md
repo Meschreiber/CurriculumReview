@@ -1,4 +1,4 @@
-# CurriculumReview
+# Curriculum Review
 ### GH Junior Phase Review
 
 In this short-answer self-assessment, we've compiled a comprehensive list of the subject matter covered so far. Think of it as a study aid.
