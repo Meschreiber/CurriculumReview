@@ -1,13 +1,26 @@
 # Languages and Such
 What distinguishes JavaScript from other languages that fill a similar role (like Ruby, Python, Java, etc)?
+> Javascript is more versatile than many languages.  It started out as a browser based language used for adding interactivity to websites.  Nowadays though, you can use Node.js to allow JS programs to run outside of a browser.  I don't know much about Ruby, but I have heard that it too has a general purpose nature.  I have programmed in Python enough to know that it tends to have more back-end popularity.  Java on the other hand, like C++ needs to be compiled and executed while JS does not.  It is a so called 'scripting language.'  
+
 
 Define HTML. Where/how is it used?
+> HTML stands for *Hyper Text Markup Language*.  It was first developped in 1990 and is the backbone of the internet. Internet pages are written in HTML. Pages usually have 'hyperlinks' to other pages, hence the name.
+
 
 Define CSS/SCSS. Where/how is it used?
+> CSS stands for *Cascading Style Sheets* and is a declartive language for styling webpages.  SCSS stands for *Sassy CSS*.  Sassy CSS is a form of CSS that allows for more functionality via variables, loops, and mix-ins (i.e. functions). If HTML provides the actual content of a webpage while CSS/SCSS provides the formatting. Cascading refers to the fact that style rules, or even whole stylesheets can be overlayed on top of one another, and that the effects cascade down.  There are several rules about which conflicting rule wins but there are general heuristics for what trumps what:
+
+> Later stylesheet > Earlier stylesheet
+> Important tag > Inline > Cascade order 
+> Author > User > Browser 
+> Specific > generic
+> Inline style > Ids > Class > Tag > Order
 
 Define SQL. Where/how is it used?
+> SQL stands for Structured Query Language. I've heard people say both 'ESS-QUE-EL' and 'Sequel' outloud and I'm not sure which is correct.  It is the standard language for relational database management systems -- in other words, it is the language that allows you to communicate with a database.
 
 Define Regex. Where/how is it used?
+> Regex stands for Regular Expression, and it the most mystifying of these language for me.  I got turned on to a great [Regex Crossword](https://regexcrossword.com/) to help me learn Regex, but I have yet to use it extensively.  I even made flashcards when I first got interested in it.  A regular expression is a special text string for describing a search pattern within a string.
 
 # Common Libraries
 Where does express belong in the 'stack' of web technologies? What problem does it solve and how?
