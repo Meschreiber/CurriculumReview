@@ -17,7 +17,7 @@ Define CSS/SCSS. Where/how is it used?
 > Inline style > Ids > Class > Tag > Order
 
 Define SQL. Where/how is it used?
-> SQL stands for Structured Query Language. I've heard people say both 'ESS-QUE-EL' and 'Sequel' outloud and I'm not sure which is correct.  It is the standard language for relational database management systems -- in other words, it is the language that allows you to communicate with a database.
+> SQL stands for *Structured Query Language*. Like CSS, it is declarative. That is, it declares what it wants. I've heard people say both 'ESS-QUE-EL' and 'Sequel' outloud and I'm not sure which is correct.  It is the standard language for relational database management systems -- in other words, it is the language that allows you to communicate with a database.
 
 Define Regex. Where/how is it used?
 > Regex stands for Regular Expression, and it the most mystifying of these language for me.  I got turned on to a great [Regex Crossword](https://regexcrossword.com/) to help me learn Regex, but I have yet to use it extensively.  I even made flashcards when I first got interested in it.  A regular expression is a special text string for describing a search pattern within a string.
@@ -61,16 +61,27 @@ Where does https belong in the 'stack' of web technologies? What problem does it
 
 # Code Design
 Define CRUD. How does it help guide or improve your code or coding process?
+> CRUD stands for **create, read, update, and delete**.  These are the four basic functions of persistent storage.  The acornym CRUD is sometimes used to describe UI conventions that facilitate viewiwng and changing information.  There are many variations of CRUD (BREAD, MADS, DAVE, CRAP) that describe the same thing, i.e. the major functions in relational database applications.  There is a nice table comparing CRUD to SQL statements and HTTP verbs on the [Wikipedia Article](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete).
 
 Define MVC. How does it help guide or improve your code or coding process?
+> MVC stands for **model-view-controller**.  In OOP, MVC is a design pattern which breaks down apps/programs into those three components.  The model is the underlying logical structure of the data.  The view is the classes/elements associated with the UI, and the controller represents the classes that connect the model to the view.
 
 Define DRY. How does it help guide or improve your code or coding process?
+> DRY stands for **"Don't Repeat Yourself"** One of the perks of programming, is that you can automate and streamline things. If you find yourself copying and pasting the same code over and over, you're doing it wrong.  Find a way to create functionality without repition.
 
 Define SOLID (we haven't told you about this). How does it help guide or improve your code or coding process?
+> From [Wikipedia](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+> **Single responsibility principle** - a class should have only a single responsibility (i.e. only one potential change in the software's specification should be able to affect the specification of the class)
+> **Open/closed principle** - “software entities … should be open for extension, but closed for modification.”
+> **Liskov substitution principle** - “objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.” 
+> **Interface segregation principle** - “many client-specific interfaces are better than one general-purpose interface."
+> **Dependency inversion principle** - one should “depend upon abstractions, [not] concretions.”
 
 Define dependency injection. How does it help guide or improve your code or coding process?
+> I hadn't heard of this before, so I found [this article](https://www.devbridge.com/articles/dependency-injection-in-javascript/) to clarify.  I still need to summarize it though.
 
 Define REST. How does it help guide or improve your code or coding process?
+> REST stands for **Representational State Transfer**.  RESTful design ensures that we do not transfer an actual object, but a representation of it.  RESTful design uses a single consistent interface to handle CRUD operations. 
 
 # Misc Terms
 Define library. What differentiates it from a framework, an API, or a protocol?
